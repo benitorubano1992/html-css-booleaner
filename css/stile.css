@@ -7,11 +7,23 @@
 /* proprieta comuni */
 html{
     font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* header */
 
+header{
+    height:25vh;
+    background-image: url(../img/pattern.png);
+    background-color:#008ae6;
+    
+    padding-top:9rem;
+    padding-left:3rem;
 
-
+}
+header img{
+    width: 18%;
+   
+}
 /* container */
 #container{
     width: 95%;
@@ -19,14 +31,21 @@ html{
 }
 #container h1{
    font-size: 3.8rem; 
+    
 }
 
 /* aggiorno colore ai sottitoli  */
 .sub-title{
     color: darkgray;
+    font-size: 1.6rem;
+}
+
+h3.sub-title{
+    font-size: 2rem;
+
 }
 .sub-title span{
-    color:#00ffff;
+    color: #00bfff;
 }
 /* dimensionamento foto */
 figure{
@@ -41,11 +60,16 @@ figure .second{
 }
 
 
-
+/* formattazione article */
 
 article{
     font-size: 1.6rem;
     margin-bottom: 2rem;
+}
+
+/* colore parte importante paragrafi di article */
+article p .yellow-part{
+    background-color: yellow;
 }
 article ul{
     margin-top: 2rem;
