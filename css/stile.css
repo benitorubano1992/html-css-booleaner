@@ -21,9 +21,17 @@ html{
    font-size: 3.8rem; 
 }
 
+/* aggiorno colore ai sottitoli  */
+.sub-title{
+    color: darkgray;
+}
+.sub-title span{
+    color:#00ffff;
+}
 /* dimensionamento foto */
 figure{
     margin-bottom: 2rem;
+    margin-top:2rem;
 }
 figure .first{
     width:46%;
@@ -31,6 +39,59 @@ figure .first{
 figure .second{
     width:39.3%;
 }
+
+
+
+
 article{
     font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+article ul{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+/* dimensionamento tabelle e colori */
+
+table {
+    margin-bottom: 2rem;
+}
+
+tr .modify{
+    width:30%;
+}
+thead tr th{
+  background-color:#00bfff;
+    vertical-align:baseline;
+    text-align: left;
+}
+tbody tr:first-child,tbody tr:last-child{
+    background-color:#b3ecff;
+}
+
+/* /* aggiorno dimensione a titolo aside */
+h4.sub-title{
+    font-size: 1.6rem;
+    font-weight:600;
+} 
+/* aside impostazione sfondi */
+aside div span{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.sfondo-first,.sfondo-second{
+    width: 28%;
+    height:208px;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    padding-top: 1rem; 
+    padding-left: 1rem;
+    margin:1.5rem 0;
+
+}
+.sfondo-second{
+    background-image: url(../img/graph.jpg);
 }
